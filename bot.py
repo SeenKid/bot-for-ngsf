@@ -18,7 +18,13 @@ import json
 from discord.utils import get
  
  
+ 
+ 
+ ##THIS BOT IS NOT WORKING ANYMORE##
+ 
 ##PREFIX##
+
+
  
 bot = commands.Bot(command_prefix='.ngsf-')
  
